@@ -1,0 +1,236 @@
+{
+ "files": {
+  "media/audio/narration-royal-mummy-ch-life-en.mp3": {
+   "bytes": 210904,
+   "durationSec": 26.3
+  },
+  "media/subs/royal-mummy-ch-life.en.vtt": {
+   "bytes": 432,
+   "durationSec": null
+  },
+  "media/subs/royal-mummy-ch-life.ar.vtt": {
+   "bytes": 611,
+   "durationSec": null
+  },
+  "media/subs/royal-mummy-ch-life.fr.vtt": {
+   "bytes": 459,
+   "durationSec": null
+  },
+  "media/video/chapter-royal-mummy-ch-life.mp4": {
+   "bytes": 1451997,
+   "durationSec": 27
+  },
+  "media/audio/narration-royal-mummy-ch-royal-en.mp3": {
+   "bytes": 227413,
+   "durationSec": 28.3
+  },
+  "media/subs/royal-mummy-ch-royal.en.vtt": {
+   "bytes": 448,
+   "durationSec": null
+  },
+  "media/subs/royal-mummy-ch-royal.ar.vtt": {
+   "bytes": 611,
+   "durationSec": null
+  },
+  "media/subs/royal-mummy-ch-royal.fr.vtt": {
+   "bytes": 499,
+   "durationSec": null
+  },
+  "media/video/chapter-royal-mummy-ch-royal.mp4": {
+   "bytes": 5638741,
+   "durationSec": 29
+  },
+  "media/audio/narration-royal-mummy-ch-death-en.mp3": {
+   "bytes": 197947,
+   "durationSec": 24.7
+  },
+  "media/subs/royal-mummy-ch-death.en.vtt": {
+   "bytes": 410,
+   "durationSec": null
+  },
+  "media/subs/royal-mummy-ch-death.ar.vtt": {
+   "bytes": 498,
+   "durationSec": null
+  },
+  "media/subs/royal-mummy-ch-death.fr.vtt": {
+   "bytes": 451,
+   "durationSec": null
+  },
+  "media/video/chapter-royal-mummy-ch-death.mp4": {
+   "bytes": 5387818,
+   "durationSec": 25
+  },
+  "media/audio/narration-royal-mummy-ch-mummification-en.mp3": {
+   "bytes": 220099,
+   "durationSec": 27.4
+  },
+  "media/subs/royal-mummy-ch-mummification.en.vtt": {
+   "bytes": 448,
+   "durationSec": null
+  },
+  "media/subs/royal-mummy-ch-mummification.ar.vtt": {
+   "bytes": 526,
+   "durationSec": null
+  },
+  "media/subs/royal-mummy-ch-mummification.fr.vtt": {
+   "bytes": 522,
+   "durationSec": null
+  },
+  "media/video/chapter-royal-mummy-ch-mummification.mp4": {
+   "bytes": 1049698,
+   "durationSec": 28
+  },
+  "media/audio/narration-royal-mummy-ch-journey-en.mp3": {
+   "bytes": 211113,
+   "durationSec": 26.3
+  },
+  "media/subs/royal-mummy-ch-journey.en.vtt": {
+   "bytes": 435,
+   "durationSec": null
+  },
+  "media/subs/royal-mummy-ch-journey.ar.vtt": {
+   "bytes": 542,
+   "durationSec": null
+  },
+  "media/subs/royal-mummy-ch-journey.fr.vtt": {
+   "bytes": 481,
+   "durationSec": null
+  },
+  "media/video/chapter-royal-mummy-ch-journey.mp4": {
+   "bytes": 3813449,
+   "durationSec": 27
+  },
+  "media/audio/narration-painted-coffin-cf-outer-en.mp3": {
+   "bytes": 146120,
+   "durationSec": 18.2
+  },
+  "media/subs/painted-coffin-cf-outer.en.vtt": {
+   "bytes": 294,
+   "durationSec": null
+  },
+  "media/subs/painted-coffin-cf-outer.ar.vtt": {
+   "bytes": 395,
+   "durationSec": null
+  },
+  "media/subs/painted-coffin-cf-outer.fr.vtt": {
+   "bytes": 329,
+   "durationSec": null
+  },
+  "media/video/chapter-painted-coffin-cf-outer.mp4": {
+   "bytes": 718023,
+   "durationSec": 19
+  },
+  "media/audio/narration-painted-coffin-cf-sky-en.mp3": {
+   "bytes": 177885,
+   "durationSec": 22.1
+  },
+  "media/subs/painted-coffin-cf-sky.en.vtt": {
+   "bytes": 389,
+   "durationSec": null
+  },
+  "media/subs/painted-coffin-cf-sky.ar.vtt": {
+   "bytes": 492,
+   "durationSec": null
+  },
+  "media/subs/painted-coffin-cf-sky.fr.vtt": {
+   "bytes": 402,
+   "durationSec": null
+  },
+  "media/video/chapter-painted-coffin-cf-sky.mp4": {
+   "bytes": 4757487,
+   "durationSec": 23
+  },
+  "media/audio/narration-painted-coffin-cf-words-en.mp3": {
+   "bytes": 162839,
+   "durationSec": 20.3
+  },
+  "media/subs/painted-coffin-cf-words.en.vtt": {
+   "bytes": 356,
+   "durationSec": null
+  },
+  "media/subs/painted-coffin-cf-words.ar.vtt": {
+   "bytes": 432,
+   "durationSec": null
+  },
+  "media/subs/painted-coffin-cf-words.fr.vtt": {
+   "bytes": 405,
+   "durationSec": null
+  },
+  "media/video/chapter-painted-coffin-cf-words.mp4": {
+   "bytes": 2363711,
+   "durationSec": 21
+  },
+  "media/audio/narration-royal-statue-st-stone-en.mp3": {
+   "bytes": 199410,
+   "durationSec": 24.8
+  },
+  "media/subs/royal-statue-st-stone.en.vtt": {
+   "bytes": 414,
+   "durationSec": null
+  },
+  "media/subs/royal-statue-st-stone.ar.vtt": {
+   "bytes": 570,
+   "durationSec": null
+  },
+  "media/subs/royal-statue-st-stone.fr.vtt": {
+   "bytes": 482,
+   "durationSec": null
+  },
+  "media/video/chapter-royal-statue-st-stone.mp4": {
+   "bytes": 1293298,
+   "durationSec": 25
+  },
+  "media/audio/narration-royal-statue-st-pose-en.mp3": {
+   "bytes": 221144,
+   "durationSec": 27.5
+  },
+  "media/subs/royal-statue-st-pose.en.vtt": {
+   "bytes": 446,
+   "durationSec": null
+  },
+  "media/subs/royal-statue-st-pose.ar.vtt": {
+   "bytes": 613,
+   "durationSec": null
+  },
+  "media/subs/royal-statue-st-pose.fr.vtt": {
+   "bytes": 478,
+   "durationSec": null
+  },
+  "media/video/chapter-royal-statue-st-pose.mp4": {
+   "bytes": 2507995,
+   "durationSec": 28
+  },
+  "media/audio/narration-royal-statue-st-memory-en.mp3": {
+   "bytes": 190842,
+   "durationSec": 23.7
+  },
+  "media/subs/royal-statue-st-memory.en.vtt": {
+   "bytes": 404,
+   "durationSec": null
+  },
+  "media/subs/royal-statue-st-memory.ar.vtt": {
+   "bytes": 527,
+   "durationSec": null
+  },
+  "media/subs/royal-statue-st-memory.fr.vtt": {
+   "bytes": 489,
+   "durationSec": null
+  },
+  "media/video/chapter-royal-statue-st-memory.mp4": {
+   "bytes": 2797818,
+   "durationSec": 24
+  },
+  "media/audio/narration-royal-mummy-intro-en.mp3": {
+   "bytes": 164510,
+   "durationSec": 20.5
+  },
+  "media/audio/narration-painted-coffin-intro-en.mp3": {
+   "bytes": 117699,
+   "durationSec": 14.6
+  },
+  "media/audio/narration-royal-statue-intro-en.mp3": {
+   "bytes": 126058,
+   "durationSec": 15.7
+  }
+ }
+}
