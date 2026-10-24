@@ -4,3 +4,23 @@ vite.config.js
 vite.config.d.ts
 .gstack/
 scripts/work/
+.demo-safe-2026-10-24.tar.gz
+
+# Audit working copy and temporary browser profiles (2026-10-24)
+.backup-audit/
+.chrome-audit/
+.chrome-deep/
+.chrome-offline/
+.chrome-layout/
+.chrome-cdp/
+.preview.log
+.preview.pid
+.build-*.log
+
+# TypeScript incremental build artifacts
+*.tsbuildinfo
+
+# Local env files never go to the public repo
+.env
+.env.*
+!.env.example

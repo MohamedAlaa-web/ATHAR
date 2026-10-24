@@ -2,7 +2,33 @@
 
 Concept prototype for academic evaluation. **Not affiliated with or approved by the Grand Egyptian Museum.**
 
-## What is built
+## Current build: ATHAR indoor navigation
+
+The app at `/` is the indoor-navigation prototype: Arabic-first (RTL) with an English
+toggle, on-device positioning (simulated BLE, real QR, phone motion, tap-to-place),
+A* routing with turn-by-turn instructions, and an offline PWA shell.
+
+**Live demo:** <https://site-d80a508dd53040aca99977a7dc55c6f0.freebuff.page> — the demo
+build (1.1 MB; legacy pages and the 33 MB media library excluded). Build/deploy
+details and the print sheet live in [`DEPLOY.md`](DEPLOY.md); the deployment audit is
+in [`GAP_REPORT.md`](GAP_REPORT.md).
+
+```bash
+npm install
+npm run dev      # http://localhost:5173
+npm test         # 134 tests
+npm run build    # static output in dist/
+npm run preview  # http://localhost:4173
+```
+
+- Debug evaluation panel: `http://localhost:5173/?debug=1` (truth vs estimate, live
+  metrics, 27-run scenario matrix, JSON/CSV export, route benchmark).
+- Measured results, known bugs and the demo script: [`STATUS_REPORT.md`](STATUS_REPORT.md).
+- Every deviation from the spec: [`DEVIATIONS.md`](DEVIATIONS.md).
+- The earlier museum-tour prototype is still reachable at `/#/legacy`, `/#/scan`,
+  `/#/positioning` and `/#/print`; it is not part of the navigation flow.
+
+## Legacy experience: what is built
 
 - **Home** (`/`) — wordmark, hero, "Every artifact has a story / وراء كل أثر حكاية", Start Exploring + Try a Demo Scan, how-it-works, featured artifacts.
 - **Scanner demo** (`/scan`) — camera-style frame, demo QR, scanning animation, **Simulate Scan** → success state → artifact page; manual fallback list; optional experimental device-camera preview (never mandatory, never faked as a real scan).
@@ -22,7 +48,7 @@ npm install
 npm run dev      # http://localhost:5173
 npm run build    # production build to dist/
 npm run preview  # preview the build
-npm test         # vitest: 16 tests (data, i18n EN/AR/FR, QR, media honesty)
+npm test         # vitest: 90 tests (navigation, positioning, data, i18n, QR, media)
 ```
 
 Or double-click `run-athar.bat` (serves `dist/` + opens the browser).

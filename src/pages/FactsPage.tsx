@@ -25,7 +25,7 @@ export function FactsPage() {
   return (
     <div style={{ paddingTop: 24 }} className="editorial">
       <p className="kicker">{artName(artifact, lang)}</p>
-      <h1 style={{ fontFamily: 'var(--font-display)', fontSize: 'clamp(30px,4vw,44px)', margin: '4px 0 12px' }}>
+      <h1 style={{ fontFamily: 'var(--font-sans)', fontSize: 'clamp(30px,4vw,44px)', margin: '4px 0 12px' }}>
         {tr('facts.title')}
       </h1>
       {fallback}

@@ -30,6 +30,7 @@ export function Header() {
             <NavLink to="/">{tr('nav.home')}</NavLink>
             <NavLink to="/scan">{tr('nav.scan')}</NavLink>
             <NavLink to="/explore">{tr('nav.explore')}</NavLink>
+            <NavLink to="/positioning">{tr('nav.positioning')}</NavLink>
           </nav>
           <LanguageSwitcher />
         </div>

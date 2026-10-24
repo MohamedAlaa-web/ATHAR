@@ -38,7 +38,7 @@ export function StoryPlayerPage() {
   return (
     <div style={{ paddingTop: 24 }}>
       <p className="kicker">{artName(artifact, lang)}</p>
-      <h1 style={{ fontFamily: 'var(--font-display)', fontSize: 'clamp(28px,4vw,42px)', margin: '4px 0' }}>
+      <h1 style={{ fontFamily: 'var(--font-sans)', fontSize: 'clamp(28px,4vw,42px)', margin: '4px 0' }}>
         {artTagline(artifact, lang)}
       </h1>
 

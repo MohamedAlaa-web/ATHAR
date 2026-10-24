@@ -1,0 +1,1231 @@
+{
+  "meta": {
+    "id": "gem-ar-01",
+    "name": {
+      "ar": "المتحف المصري الكبير",
+      "en": "Grand Egyptian Museum"
+    },
+    "note": {
+      "ar": "بيانات عرض توضيحية — المخطط والقطع والإحداثيات ليست بيانات رسمية للمتحف.",
+      "en": "Demo data — the floor plan, artifacts and coordinates are not official museum data."
+    },
+    "placeholder": true,
+    "unit": "metres",
+    "widthM": 60,
+    "heightM": 30
+  },
+  "entrance": {
+    "floor": "ground",
+    "x": 11,
+    "y": 3,
+    "qrId": "GEM-ENTRANCE",
+    "label": {
+      "ar": "المدخل الرئيسي",
+      "en": "Main entrance"
+    }
+  },
+  "halls": [
+    {
+      "id": "hall-a",
+      "qrId": "GEM-HALL-A",
+      "name": {
+        "ar": "القاعة الكبرى",
+        "en": "Grand Hall"
+      },
+      "short": {
+        "ar": "الكبرى",
+        "en": "Grand"
+      },
+      "floor": "ground",
+      "labelAt": {
+        "x": 11,
+        "y": 14
+      },
+      "description": {
+        "ar": "صالة المدخل الواسعة: لوحة نارمر وتمثال خوفو وثالوث منكاورع.",
+        "en": "The wide entrance hall: Narmer Palette, Khufu statuette and Menkaure triad."
+      },
+      "rects": [
+        {
+          "x": 2,
+          "y": 2,
+          "w": 18,
+          "h": 26
+        }
+      ],
+      "capacity": 120
+    },
+    {
+      "id": "corridor",
+      "qrId": "GEM-CORRIDOR",
+      "name": {
+        "ar": "الممر الاحتفالي",
+        "en": "Processional Corridor"
+      },
+      "short": {
+        "ar": "الممر",
+        "en": "Corridor"
+      },
+      "floor": "ground",
+      "labelAt": {
+        "x": 32,
+        "y": 15
+      },
+      "description": {
+        "ar": "الممر الذي يربط القاعات الثلاث ويؤدي إلى السلم الكبير.",
+        "en": "The spine linking all three halls and the grand staircase."
+      },
+      "rects": [
+        {
+          "x": 20,
+          "y": 13,
+          "w": 24,
+          "h": 4
+        }
+      ],
+      "capacity": 80
+    },
+    {
+      "id": "hall-b",
+      "qrId": "GEM-HALL-B",
+      "name": {
+        "ar": "قاعة توت عنخ آمون",
+        "en": "Tutankhamun Hall"
+      },
+      "short": {
+        "ar": "توت عنخ آمون",
+        "en": "Tutankhamun"
+      },
+      "floor": "ground",
+      "labelAt": {
+        "x": 31,
+        "y": 7.2
+      },
+      "description": {
+        "ar": "قاعة المجموعة الذهبية: القناع والعرش ومقام أنوبيس.",
+        "en": "The golden set: the mask, the throne and the Anubis shrine."
+      },
+      "rects": [
+        {
+          "x": 22,
+          "y": 2,
+          "w": 18,
+          "h": 11
+        }
+      ],
+      "capacity": 150
+    },
+    {
+      "id": "hall-c",
+      "qrId": "GEM-HALL-C",
+      "name": {
+        "ar": "بهو التماثيل الملكية",
+        "en": "Royal Sculpture Court"
+      },
+      "short": {
+        "ar": "التماثيل",
+        "en": "Sculpture"
+      },
+      "floor": "ground",
+      "labelAt": {
+        "x": 51,
+        "y": 14.5
+      },
+      "description": {
+        "ar": "التماثيل الضخمة ولوحة مرنبتاح في بهو مفتوح.",
+        "en": "Colossal sculpture and the Merneptah Stele in an open court."
+      },
+      "rects": [
+        {
+          "x": 44,
+          "y": 2,
+          "w": 14,
+          "h": 26
+        }
+      ],
+      "capacity": 100
+    },
+    {
+      "id": "stair",
+      "qrId": "GEM-STAIR",
+      "name": {
+        "ar": "السلم الكبير",
+        "en": "Grand Stair"
+      },
+      "short": {
+        "ar": "السلم",
+        "en": "Stairs"
+      },
+      "floor": "ground",
+      "labelAt": {
+        "x": 34,
+        "y": 22.2
+      },
+      "description": {
+        "ar": "سلم يربط الأرضي بالمعرض العلوي الصغير.",
+        "en": "A staircase linking the ground floor to the small upper gallery."
+      },
+      "rects": [
+        {
+          "x": 30,
+          "y": 17,
+          "w": 8,
+          "h": 7
+        }
+      ],
+      "capacity": 40
+    },
+    {
+      "id": "upper-hall",
+      "qrId": "GEM-UPPER-HALL",
+      "name": {
+        "ar": "المعرض العلوي",
+        "en": "Upper Gallery"
+      },
+      "short": {
+        "ar": "العلوي",
+        "en": "Upper"
+      },
+      "floor": "upper",
+      "labelAt": {
+        "x": 38,
+        "y": 15
+      },
+      "description": {
+        "ar": "قاعة صغيرة في المستوى العلوي تضم تمثال حتشبسوت.",
+        "en": "A small upper-level room with the Hatshepsut statue."
+      },
+      "rects": [
+        {
+          "x": 30,
+          "y": 8,
+          "w": 16,
+          "h": 16
+        }
+      ],
+      "capacity": 90
+    }
+  ],
+  "artifacts": [
+    {
+      "id": "narmer-palette",
+      "name": {
+        "ar": "لوحة نارمر",
+        "en": "Narmer Palette"
+      },
+      "short": {
+        "ar": "نارمر",
+        "en": "Narmer"
+      },
+      "description": {
+        "ar": "لوحة حجرية تُعرض هنا كنسخة توضيحية؛ تروي توحيد مصر في صورة رمزية. المحتوى مؤقت للمعاينة.",
+        "en": "A carved slate palette shown here as a demo record; it depicts the unification of Egypt symbolically. Placeholder content."
+      },
+      "hallId": "hall-a",
+      "floor": "ground",
+      "category": "royal",
+      "x": 7,
+      "y": 9,
+      "qrId": "GEM-A-01",
+      "tags": [
+        "royal",
+        "writing"
+      ],
+      "importance": 9,
+      "dwellMinutes": 6,
+      "placeholder": true
+    },
+    {
+      "id": "khufu-statuette",
+      "name": {
+        "ar": "تمثال خوفو",
+        "en": "Khufu Statuette"
+      },
+      "short": {
+        "ar": "خوفو",
+        "en": "Khufu"
+      },
+      "description": {
+        "ar": "تمثال صغير من العاج للملك خوفو، من أشهر صوره الباقية. المحتوى مؤقت للمعاينة.",
+        "en": "A small ivory statuette of King Khufu, among his best-known surviving images. Placeholder content."
+      },
+      "hallId": "hall-a",
+      "floor": "ground",
+      "category": "royal",
+      "x": 8,
+      "y": 23,
+      "qrId": "GEM-A-02",
+      "tags": [
+        "royal",
+        "sculpture"
+      ],
+      "importance": 7,
+      "dwellMinutes": 5,
+      "placeholder": true
+    },
+    {
+      "id": "menkaure-triad",
+      "name": {
+        "ar": "ثالوث منكاورع",
+        "en": "Triad of Menkaure"
+      },
+      "short": {
+        "ar": "منكاورع",
+        "en": "Menkaure"
+      },
+      "description": {
+        "ar": "مجموعة من ثلاث شخصيات: الملك بين إلهين، رمز للتوازن والسلطة. المحتوى مؤقت للمعاينة.",
+        "en": "A three-figure group: the king flanked by deities, a symbol of balance and authority. Placeholder content."
+      },
+      "hallId": "hall-a",
+      "floor": "ground",
+      "category": "sculpture",
+      "x": 15,
+      "y": 7,
+      "qrId": "GEM-A-03",
+      "tags": [
+        "sculpture",
+        "royal"
+      ],
+      "importance": 6,
+      "dwellMinutes": 4,
+      "placeholder": true
+    },
+    {
+      "id": "tut-mask",
+      "name": {
+        "ar": "قناع توت عنخ آمون",
+        "en": "Funerary Mask of Tutankhamun"
+      },
+      "short": {
+        "ar": "القناع",
+        "en": "Mask"
+      },
+      "description": {
+        "ar": "قناع جنائزي ذهبي من أشهر قطع العالم القديم. هذه بطاقة توضيحية وليست وصفًا رسميًا. المحتوى مؤقت للمعاينة.",
+        "en": "A golden funerary mask and one of the most recognised objects of the ancient world. This is a demo card, not an official record. Placeholder content."
+      },
+      "hallId": "hall-b",
+      "floor": "ground",
+      "category": "funerary",
+      "x": 28,
+      "y": 6,
+      "qrId": "GEM-B-01",
+      "tags": [
+        "funerary",
+        "royal"
+      ],
+      "importance": 10,
+      "dwellMinutes": 7,
+      "placeholder": true
+    },
+    {
+      "id": "tut-throne",
+      "name": {
+        "ar": "عرش توت عنخ آمون الذهبي",
+        "en": "Golden Throne of Tutankhamun"
+      },
+      "short": {
+        "ar": "العرش",
+        "en": "Throne"
+      },
+      "description": {
+        "ar": "عرش مذهّب تصوّره مشهد قصر ملكي؛ التفاصيل هنا مبسطة للمعاينة. المحتوى مؤقت للمعاينة.",
+        "en": "A gilded throne showing a palace scene; details here are simplified for the demo. Placeholder content."
+      },
+      "hallId": "hall-b",
+      "floor": "ground",
+      "category": "royal",
+      "x": 36,
+      "y": 9,
+      "qrId": "GEM-B-02",
+      "tags": [
+        "royal"
+      ],
+      "importance": 8,
+      "dwellMinutes": 5,
+      "placeholder": true
+    },
+    {
+      "id": "anubis-shrine",
+      "name": {
+        "ar": "مقام أنوبيس",
+        "en": "Anubis Shrine"
+      },
+      "short": {
+        "ar": "أنوبيس",
+        "en": "Anubis"
+      },
+      "description": {
+        "ar": "مقام على شكل ابن آوى كان يحرس المتوفى في رحلته. المحتوى مؤقت للمعاينة.",
+        "en": "A jackal-form shrine that guarded the deceased on the journey beyond. Placeholder content."
+      },
+      "hallId": "hall-b",
+      "floor": "ground",
+      "category": "funerary",
+      "x": 32,
+      "y": 3.6,
+      "qrId": "GEM-B-03",
+      "tags": [
+        "funerary"
+      ],
+      "importance": 6,
+      "dwellMinutes": 4,
+      "placeholder": true
+    },
+    {
+      "id": "ramesses-statue",
+      "name": {
+        "ar": "تمثال رمسيس الثاني",
+        "en": "Colossal Statue of Ramesses II"
+      },
+      "short": {
+        "ar": "رمسيس",
+        "en": "Ramesses"
+      },
+      "description": {
+        "ar": "تمثال ضخم لملك الدولة الحديثة، رمز للقوة والخلود. المحتوى مؤقت للمعاينة.",
+        "en": "A colossal New Kingdom royal statue, a symbol of power and permanence. Placeholder content."
+      },
+      "hallId": "hall-c",
+      "floor": "ground",
+      "category": "sculpture",
+      "x": 48,
+      "y": 8,
+      "qrId": "GEM-C-01",
+      "tags": [
+        "sculpture"
+      ],
+      "importance": 8,
+      "dwellMinutes": 5,
+      "placeholder": true
+    },
+    {
+      "id": "khafre-enthroned",
+      "name": {
+        "ar": "خفرع على عرشه",
+        "en": "Khafre Enthroned"
+      },
+      "short": {
+        "ar": "خفرع",
+        "en": "Khafre"
+      },
+      "description": {
+        "ar": "تمثال للملك خفرع محاطًا برموز الحماية الملكية. المحتوى مؤقت للمعاينة.",
+        "en": "A royal seated statue surrounded by symbols of protection. Placeholder content."
+      },
+      "hallId": "hall-c",
+      "floor": "ground",
+      "category": "sculpture",
+      "x": 54,
+      "y": 22,
+      "qrId": "GEM-C-02",
+      "tags": [
+        "sculpture",
+        "royal"
+      ],
+      "importance": 9,
+      "dwellMinutes": 5,
+      "placeholder": true
+    },
+    {
+      "id": "merneptah-stele",
+      "name": {
+        "ar": "لوحة مرنبتاح",
+        "en": "Merneptah Stele"
+      },
+      "short": {
+        "ar": "مرنبتاح",
+        "en": "Merneptah"
+      },
+      "description": {
+        "ar": "لوحة حجرية تسجل انتصارات الملك مرنبتاح. المحتوى مؤقت للمعاينة.",
+        "en": "A stone stele recording the victories of King Merneptah. Placeholder content."
+      },
+      "hallId": "hall-c",
+      "floor": "ground",
+      "category": "royal",
+      "x": 47,
+      "y": 24,
+      "qrId": "GEM-C-03",
+      "tags": [
+        "writing",
+        "royal"
+      ],
+      "importance": 7,
+      "dwellMinutes": 4,
+      "placeholder": true
+    },
+    {
+      "id": "hatshepsut-statue",
+      "name": {
+        "ar": "تمثال حتشبسوت",
+        "en": "Statue of Hatshepsut"
+      },
+      "short": {
+        "ar": "حتشبسوت",
+        "en": "Hatshepsut"
+      },
+      "description": {
+        "ar": "تمثال ملكي أنثوي من الدولة الحديثة، في المعرض العلوي. المحتوى مؤقت للمعاينة.",
+        "en": "A royal female statue from the New Kingdom, displayed in the upper gallery. Placeholder content."
+      },
+      "hallId": "upper-hall",
+      "floor": "upper",
+      "category": "sculpture",
+      "x": 40,
+      "y": 18,
+      "qrId": "GEM-U-01",
+      "tags": [
+        "sculpture",
+        "royal"
+      ],
+      "importance": 7,
+      "dwellMinutes": 5,
+      "placeholder": true
+    }
+  ],
+  "beacons": [
+    {
+      "id": "ble-a1",
+      "label": "BLE-A1",
+      "floor": "ground",
+      "x": 4,
+      "y": 4,
+      "txPower": -59,
+      "pathLoss": 2
+    },
+    {
+      "id": "ble-a2",
+      "label": "BLE-A2",
+      "floor": "ground",
+      "x": 18,
+      "y": 25,
+      "txPower": -59,
+      "pathLoss": 2
+    },
+    {
+      "id": "ble-a3",
+      "label": "BLE-A3",
+      "floor": "ground",
+      "x": 18,
+      "y": 6,
+      "txPower": -59,
+      "pathLoss": 2
+    },
+    {
+      "id": "ble-b1",
+      "label": "BLE-B1",
+      "floor": "ground",
+      "x": 25,
+      "y": 5,
+      "txPower": -59,
+      "pathLoss": 2
+    },
+    {
+      "id": "ble-b2",
+      "label": "BLE-B2",
+      "floor": "ground",
+      "x": 38,
+      "y": 11,
+      "txPower": -59,
+      "pathLoss": 2
+    },
+    {
+      "id": "ble-c1",
+      "label": "BLE-C1",
+      "floor": "ground",
+      "x": 32,
+      "y": 15,
+      "txPower": -59,
+      "pathLoss": 2
+    },
+    {
+      "id": "ble-c2",
+      "label": "BLE-C2",
+      "floor": "ground",
+      "x": 47,
+      "y": 4,
+      "txPower": -59,
+      "pathLoss": 2
+    },
+    {
+      "id": "ble-c3",
+      "label": "BLE-C3",
+      "floor": "ground",
+      "x": 55,
+      "y": 25,
+      "txPower": -59,
+      "pathLoss": 2
+    },
+    {
+      "id": "ble-s1",
+      "label": "BLE-S1",
+      "floor": "ground",
+      "x": 34,
+      "y": 21,
+      "txPower": -59,
+      "pathLoss": 2
+    },
+    {
+      "id": "ble-u1",
+      "label": "BLE-U1",
+      "floor": "upper",
+      "x": 40,
+      "y": 14,
+      "txPower": -59,
+      "pathLoss": 2
+    }
+  ],
+  "obstacles": [
+    {
+      "id": "case-1",
+      "label": {
+        "ar": "فتارين",
+        "en": "Display cases"
+      },
+      "x": 3,
+      "y": 12,
+      "w": 1.2,
+      "h": 4
+    },
+    {
+      "id": "case-2",
+      "label": {
+        "ar": "فتارين",
+        "en": "Display cases"
+      },
+      "x": 16.4,
+      "y": 24,
+      "w": 2,
+      "h": 2
+    },
+    {
+      "id": "case-3",
+      "label": {
+        "ar": "فتارين",
+        "en": "Display cases"
+      },
+      "x": 23,
+      "y": 3,
+      "w": 3,
+      "h": 1
+    },
+    {
+      "id": "case-4",
+      "label": {
+        "ar": "فتارين",
+        "en": "Display cases"
+      },
+      "x": 55,
+      "y": 12,
+      "w": 2,
+      "h": 3
+    },
+    {
+      "id": "bench-1",
+      "label": {
+        "ar": "مقعد",
+        "en": "Bench"
+      },
+      "x": 26,
+      "y": 13.4,
+      "w": 1.6,
+      "h": 0.4
+    },
+    {
+      "id": "bench-2",
+      "label": {
+        "ar": "مقعد",
+        "en": "Bench"
+      },
+      "x": 36,
+      "y": 16.2,
+      "w": 1.6,
+      "h": 0.4
+    }
+  ],
+  "graph": {
+    "nodes": [
+      {
+        "id": "entrance",
+        "x": 11,
+        "y": 3,
+        "floor": "ground",
+        "hallId": "hall-a"
+      },
+      {
+        "id": "a1",
+        "x": 6,
+        "y": 8,
+        "floor": "ground",
+        "hallId": "hall-a"
+      },
+      {
+        "id": "a2",
+        "x": 14,
+        "y": 7,
+        "floor": "ground",
+        "hallId": "hall-a"
+      },
+      {
+        "id": "a3",
+        "x": 6,
+        "y": 18,
+        "floor": "ground",
+        "hallId": "hall-a"
+      },
+      {
+        "id": "a4",
+        "x": 14,
+        "y": 20,
+        "floor": "ground",
+        "hallId": "hall-a"
+      },
+      {
+        "id": "a5",
+        "x": 14,
+        "y": 25,
+        "floor": "ground",
+        "hallId": "hall-a"
+      },
+      {
+        "id": "a-center",
+        "x": 11,
+        "y": 14,
+        "floor": "ground",
+        "hallId": "hall-a"
+      },
+      {
+        "id": "a-door",
+        "x": 19,
+        "y": 15,
+        "floor": "ground",
+        "hallId": "hall-a"
+      },
+      {
+        "id": "c-w",
+        "x": 21,
+        "y": 15,
+        "floor": "ground",
+        "hallId": "corridor"
+      },
+      {
+        "id": "c-m",
+        "x": 28,
+        "y": 15,
+        "floor": "ground",
+        "hallId": "corridor"
+      },
+      {
+        "id": "c-stair",
+        "x": 34,
+        "y": 15,
+        "floor": "ground",
+        "hallId": "corridor"
+      },
+      {
+        "id": "c-e",
+        "x": 42,
+        "y": 15,
+        "floor": "ground",
+        "hallId": "corridor"
+      },
+      {
+        "id": "b-door",
+        "x": 31,
+        "y": 12.5,
+        "floor": "ground",
+        "hallId": "hall-b"
+      },
+      {
+        "id": "b-w",
+        "x": 26,
+        "y": 6,
+        "floor": "ground",
+        "hallId": "hall-b"
+      },
+      {
+        "id": "b-n",
+        "x": 31,
+        "y": 9.5,
+        "floor": "ground",
+        "hallId": "hall-b"
+      },
+      {
+        "id": "b-e",
+        "x": 36,
+        "y": 6,
+        "floor": "ground",
+        "hallId": "hall-b"
+      },
+      {
+        "id": "c-door",
+        "x": 45,
+        "y": 15,
+        "floor": "ground",
+        "hallId": "hall-c"
+      },
+      {
+        "id": "c1",
+        "x": 48,
+        "y": 8,
+        "floor": "ground",
+        "hallId": "hall-c"
+      },
+      {
+        "id": "c2",
+        "x": 53,
+        "y": 8,
+        "floor": "ground",
+        "hallId": "hall-c"
+      },
+      {
+        "id": "c5",
+        "x": 51,
+        "y": 15,
+        "floor": "ground",
+        "hallId": "hall-c"
+      },
+      {
+        "id": "c3",
+        "x": 48,
+        "y": 23,
+        "floor": "ground",
+        "hallId": "hall-c"
+      },
+      {
+        "id": "c4",
+        "x": 54,
+        "y": 23,
+        "floor": "ground",
+        "hallId": "hall-c"
+      },
+      {
+        "id": "s1",
+        "x": 34,
+        "y": 18.5,
+        "floor": "ground",
+        "hallId": "stair"
+      },
+      {
+        "id": "s2",
+        "x": 34,
+        "y": 21.5,
+        "floor": "ground",
+        "hallId": "stair"
+      },
+      {
+        "id": "u-stair",
+        "x": 34,
+        "y": 10,
+        "floor": "upper",
+        "hallId": "upper-hall"
+      },
+      {
+        "id": "u1",
+        "x": 38,
+        "y": 12,
+        "floor": "upper",
+        "hallId": "upper-hall"
+      },
+      {
+        "id": "u2",
+        "x": 42,
+        "y": 18,
+        "floor": "upper",
+        "hallId": "upper-hall"
+      },
+      {
+        "id": "u3",
+        "x": 34,
+        "y": 20,
+        "floor": "upper",
+        "hallId": "upper-hall"
+      },
+      {
+        "id": "u-hat",
+        "x": 40,
+        "y": 18,
+        "floor": "upper",
+        "hallId": "upper-hall"
+      }
+    ],
+    "edges": [
+      {
+        "from": "entrance",
+        "to": "a1"
+      },
+      {
+        "from": "entrance",
+        "to": "a2"
+      },
+      {
+        "from": "a1",
+        "to": "a3"
+      },
+      {
+        "from": "a1",
+        "to": "a-center"
+      },
+      {
+        "from": "a2",
+        "to": "a-center"
+      },
+      {
+        "from": "a2",
+        "to": "a4"
+      },
+      {
+        "from": "a2",
+        "to": "a-door"
+      },
+      {
+        "from": "a3",
+        "to": "a4"
+      },
+      {
+        "from": "a3",
+        "to": "a-center"
+      },
+      {
+        "from": "a4",
+        "to": "a5"
+      },
+      {
+        "from": "a4",
+        "to": "a-center"
+      },
+      {
+        "from": "a4",
+        "to": "a-door"
+      },
+      {
+        "from": "a-center",
+        "to": "a-door"
+      },
+      {
+        "from": "a-door",
+        "to": "c-w"
+      },
+      {
+        "from": "c-w",
+        "to": "c-m"
+      },
+      {
+        "from": "c-m",
+        "to": "c-stair"
+      },
+      {
+        "from": "c-stair",
+        "to": "c-e"
+      },
+      {
+        "from": "c-m",
+        "to": "b-door"
+      },
+      {
+        "from": "b-door",
+        "to": "b-n"
+      },
+      {
+        "from": "b-door",
+        "to": "b-w"
+      },
+      {
+        "from": "b-w",
+        "to": "b-n"
+      },
+      {
+        "from": "b-n",
+        "to": "b-e"
+      },
+      {
+        "from": "c-e",
+        "to": "c-door"
+      },
+      {
+        "from": "c-door",
+        "to": "c1"
+      },
+      {
+        "from": "c-door",
+        "to": "c5"
+      },
+      {
+        "from": "c1",
+        "to": "c2"
+      },
+      {
+        "from": "c1",
+        "to": "c3"
+      },
+      {
+        "from": "c2",
+        "to": "c4"
+      },
+      {
+        "from": "c5",
+        "to": "c2"
+      },
+      {
+        "from": "c5",
+        "to": "c3"
+      },
+      {
+        "from": "c5",
+        "to": "c4"
+      },
+      {
+        "from": "c3",
+        "to": "c4"
+      },
+      {
+        "from": "c-stair",
+        "to": "s1"
+      },
+      {
+        "from": "s1",
+        "to": "s2"
+      },
+      {
+        "from": "s2",
+        "to": "u-stair",
+        "hasStairs": true
+      },
+      {
+        "from": "u-stair",
+        "to": "u1"
+      },
+      {
+        "from": "u-stair",
+        "to": "u3"
+      },
+      {
+        "from": "u1",
+        "to": "u2"
+      },
+      {
+        "from": "u2",
+        "to": "u3"
+      },
+      {
+        "from": "u2",
+        "to": "u-hat"
+      },
+      {
+        "from": "u3",
+        "to": "u-hat"
+      }
+    ]
+  },
+  "paths": [
+    {
+      "id": "grand-highlights",
+      "name": {
+        "ar": "أبرز قطع القاعة الكبرى",
+        "en": "Grand Hall highlights"
+      },
+      "points": [
+        {
+          "x": 11,
+          "y": 3,
+          "floor": "ground"
+        },
+        {
+          "x": 10,
+          "y": 6,
+          "floor": "ground"
+        },
+        {
+          "x": 7,
+          "y": 9,
+          "floor": "ground"
+        },
+        {
+          "x": 5,
+          "y": 14,
+          "floor": "ground"
+        },
+        {
+          "x": 6,
+          "y": 20,
+          "floor": "ground"
+        },
+        {
+          "x": 8,
+          "y": 23,
+          "floor": "ground"
+        },
+        {
+          "x": 14,
+          "y": 25,
+          "floor": "ground"
+        },
+        {
+          "x": 16,
+          "y": 20,
+          "floor": "ground"
+        },
+        {
+          "x": 15,
+          "y": 14,
+          "floor": "ground"
+        },
+        {
+          "x": 15,
+          "y": 7,
+          "floor": "ground"
+        },
+        {
+          "x": 11,
+          "y": 9,
+          "floor": "ground"
+        }
+      ]
+    },
+    {
+      "id": "cross-museum",
+      "name": {
+        "ar": "عبر القاعات الثلاث",
+        "en": "Across three halls"
+      },
+      "points": [
+        {
+          "x": 11,
+          "y": 3,
+          "floor": "ground"
+        },
+        {
+          "x": 14,
+          "y": 7,
+          "floor": "ground"
+        },
+        {
+          "x": 19,
+          "y": 15,
+          "floor": "ground"
+        },
+        {
+          "x": 28,
+          "y": 15,
+          "floor": "ground"
+        },
+        {
+          "x": 28,
+          "y": 8,
+          "floor": "ground"
+        },
+        {
+          "x": 28,
+          "y": 6,
+          "floor": "ground"
+        },
+        {
+          "x": 34,
+          "y": 8,
+          "floor": "ground"
+        },
+        {
+          "x": 36,
+          "y": 9,
+          "floor": "ground"
+        },
+        {
+          "x": 38,
+          "y": 12,
+          "floor": "ground"
+        },
+        {
+          "x": 40,
+          "y": 15,
+          "floor": "ground"
+        },
+        {
+          "x": 45,
+          "y": 15,
+          "floor": "ground"
+        },
+        {
+          "x": 48,
+          "y": 8,
+          "floor": "ground"
+        },
+        {
+          "x": 51,
+          "y": 15,
+          "floor": "ground"
+        },
+        {
+          "x": 48,
+          "y": 23,
+          "floor": "ground"
+        },
+        {
+          "x": 54,
+          "y": 22,
+          "floor": "ground"
+        }
+      ]
+    },
+    {
+      "id": "upper-gallery",
+      "name": {
+        "ar": "السلم والمعرض العلوي",
+        "en": "Stair and upper gallery"
+      },
+      "points": [
+        {
+          "x": 11,
+          "y": 3,
+          "floor": "ground"
+        },
+        {
+          "x": 14,
+          "y": 7,
+          "floor": "ground"
+        },
+        {
+          "x": 19,
+          "y": 15,
+          "floor": "ground"
+        },
+        {
+          "x": 28,
+          "y": 15,
+          "floor": "ground"
+        },
+        {
+          "x": 34,
+          "y": 15,
+          "floor": "ground"
+        },
+        {
+          "x": 34,
+          "y": 18.5,
+          "floor": "ground"
+        },
+        {
+          "x": 34,
+          "y": 21.5,
+          "floor": "ground"
+        },
+        {
+          "x": 34,
+          "y": 10,
+          "floor": "upper"
+        },
+        {
+          "x": 38,
+          "y": 12,
+          "floor": "upper"
+        },
+        {
+          "x": 40,
+          "y": 18,
+          "floor": "upper"
+        }
+      ]
+    }
+  ]
+}

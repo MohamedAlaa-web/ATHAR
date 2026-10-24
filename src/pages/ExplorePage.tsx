@@ -25,7 +25,7 @@ export function ExplorePage() {
 
   return (
     <div style={{ paddingTop: 24 }}>
-      <h1 style={{ fontFamily: 'var(--font-display)', fontSize: 'clamp(30px,4vw,44px)', margin: 0 }}>
+      <h1 style={{ fontFamily: 'var(--font-sans)', fontSize: 'clamp(30px,4vw,44px)', margin: 0 }}>
         {tr('explore.title')}
       </h1>
       <p className="prose">{tr('explore.sub')}</p>

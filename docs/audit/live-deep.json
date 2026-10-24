@@ -1,0 +1,164 @@
+{
+  "base": "https://site-b4b421f6246446ccb30d009077a444df.freebuff.page",
+  "tag": "live",
+  "at": "2026-10-24T18:04:04.577Z",
+  "threeG": {
+    "requests": 13,
+    "transferredBytes": 10989,
+    "transferredKB": 11,
+    "timing": {
+      "domContentLoaded": 674,
+      "load": 676,
+      "firstPaint": 328,
+      "firstContentfulPaint": 600,
+      "largestContentfulPaint": null,
+      "hash": "#/onboarding",
+      "transferKB": 0
+    }
+  },
+  "coldOpen": {
+    "hash": "#/onboarding",
+    "heading": "اختر لغتك",
+    "onboarded": "false"
+  },
+  "narrow": {
+    "#/onboarding": {
+      "overflowX": false,
+      "scrollWidth": 360,
+      "innerWidth": 360
+    },
+    "#/map": {
+      "overflowX": false,
+      "scrollWidth": 360,
+      "innerWidth": 360
+    },
+    "#/search": {
+      "overflowX": false,
+      "scrollWidth": 360,
+      "innerWidth": 360
+    },
+    "#/item/tut-mask": {
+      "overflowX": false,
+      "scrollWidth": 360,
+      "innerWidth": 360
+    },
+    "#/qr": {
+      "overflowX": false,
+      "scrollWidth": 360,
+      "innerWidth": 360
+    },
+    "#/settings": {
+      "overflowX": false,
+      "scrollWidth": 360,
+      "innerWidth": 360
+    },
+    "#/device-check": {
+      "overflowX": false,
+      "scrollWidth": 360,
+      "innerWidth": 360
+    },
+    "#/admin": {
+      "overflowX": false,
+      "scrollWidth": 360,
+      "innerWidth": 360
+    },
+    "#/print-qr": {
+      "overflowX": false,
+      "scrollWidth": 360,
+      "innerWidth": 360
+    },
+    "#/plan": {
+      "overflowX": false,
+      "scrollWidth": 360,
+      "innerWidth": 360
+    },
+    "#/rewards": {
+      "overflowX": false,
+      "scrollWidth": 360,
+      "innerWidth": 360
+    },
+    "#/debug": {
+      "overflowX": false,
+      "scrollWidth": 360,
+      "innerWidth": 360
+    }
+  },
+  "sw": {
+    "scope": "https://site-b4b421f6246446ccb30d009077a444df.freebuff.page/",
+    "active": true,
+    "keys": [
+      "athar-3b669317-shell",
+      "athar-3b669317-runtime"
+    ],
+    "cached": [
+      "/",
+      "/assets/ibm-plex-sans-arabic-arabic-400-normal-CyU-ddYS.woff2",
+      "/assets/ibm-plex-sans-arabic-arabic-500-normal-C4MQITzh.woff2",
+      "/assets/ibm-plex-sans-arabic-arabic-600-normal-0pRdybE_.woff2",
+      "/assets/ibm-plex-sans-arabic-latin-400-normal-Bo5KPYvw.woff2",
+      "/assets/ibm-plex-sans-arabic-latin-500-normal-Cd6jVIg7.woff2",
+      "/assets/ibm-plex-sans-arabic-latin-600-normal-KrqB56Mw.woff2",
+      "/assets/ibm-plex-sans-latin-wght-normal-IvpUvPa2.woff2",
+      "/assets/index-Dcfphkrq.css",
+      "/assets/index-SBIvtsgT.js",
+      "/assets/noto-naskh-arabic-arabic-wght-normal-DIN-4rtF.woff2",
+      "/icons/apple-touch-icon.png",
+      "/icons/athar-192.png",
+      "/icons/athar-512.png",
+      "/icons/athar-maskable-512.png",
+      "/icons/athar.svg",
+      "/index.html",
+      "/manifest.webmanifest"
+    ]
+  },
+  "offline": {
+    "booted": true,
+    "heading": "اختر لغتك",
+    "hash": "#/onboarding",
+    "fonts": [
+      "IBM Plex Sans Arabic",
+      "IBM Plex Sans",
+      "Noto Naskh Arabic"
+    ],
+    "fontsLoaded": [
+      "IBM Plex Sans Arabic"
+    ],
+    "bodyFont": "\"IBM Plex Sans Arabic\", \"IBM Plex Sans\", system-ui, sans-serif",
+    "ibmPlexReady": true,
+    "naskhReady": true
+  },
+  "assets": {
+    "/manifest.webmanifest": {
+      "status": 200,
+      "type": "application/manifest+json"
+    },
+    "/icons/athar-192.png": {
+      "status": 200,
+      "type": "image/png"
+    },
+    "/icons/athar-512.png": {
+      "status": 200,
+      "type": "image/png"
+    },
+    "/icons/athar-maskable-512.png": {
+      "status": 200,
+      "type": "image/png"
+    },
+    "/icons/apple-touch-icon.png": {
+      "status": 200,
+      "type": "image/png"
+    },
+    "/icons/athar.svg": {
+      "status": 200,
+      "type": "image/svg+xml"
+    },
+    "/sw.js": {
+      "status": 200,
+      "type": "text/javascript"
+    },
+    "/precache-manifest.json": {
+      "status": 200,
+      "type": "application/json"
+    }
+  }
+}

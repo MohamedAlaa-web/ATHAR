@@ -20,26 +20,31 @@ const KEY = 'athar-lang';
 
 function initial(): Lang {
   try {
-    const s = sessionStorage.getItem(KEY);
-    if (s === 'ar' || s === 'en' || s === 'fr') return s;
+    const local = localStorage.getItem(KEY);
+    if (local === 'ar' || local === 'en' || local === 'fr') return local;
+    const session = sessionStorage.getItem(KEY);
+    if (session === 'ar' || session === 'en' || session === 'fr') return session;
   } catch { /* ignore */ }
-  return 'en';
+  return 'ar';
 }
 
 export function LanguageProvider({ children }: { children: React.ReactNode }) {
   const [lang, setLangState] = useState<Lang>(initial);
   const setLang = useCallback((l: Lang) => {
     setLangState(l);
-    try { sessionStorage.setItem(KEY, l); } catch { /* ignore */ }
+    try {
+      localStorage.setItem(KEY, l);
+      sessionStorage.setItem(KEY, l);
+    } catch { /* ignore */ }
   }, []);
   const dir: 'ltr' | 'rtl' = lang === 'ar' ? 'rtl' : 'ltr';
   useEffect(() => {
     document.documentElement.lang = lang;
     document.documentElement.dir = dir;
     document.title =
-      lang === 'ar' ? 'أثر · ATHAR — وراء كل أثر حكاية'
+      lang === 'ar' ? 'أثر · ATHAR — اعرف طريقك. بلا أثر رقمي.'
       : lang === 'fr' ? 'ATHAR · أثر — Chaque objet a une histoire'
-      : 'ATHAR · أثر — Every artifact has a story';
+      : 'ATHAR · أثر — Find your way. Leave no trace.';
   }, [lang, dir]);
   const tr = useCallback((key: string) => t(lang, key), [lang]);
   const value = useMemo(() => ({ lang, dir, setLang, tr }), [lang, dir, setLang, tr]);

@@ -1,0 +1,37 @@
+# Netlify build for the ATHAR demo (kiosk) bundle.
+# `build:demo` compiles the legacy routes out and leaves the 33 MB legacy media
+# library out of dist/, so the site is ~1.2 MB instead of ~41 MB.
+[build]
+  command = "npm run build:demo"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "20"
+  VITE_DEMO_BUILD = "1"
+
+# The service worker and its precache list must never be pinned by the CDN:
+# the browser has to be able to see a new build. Hashed assets are immutable.
+[[headers]]
+  for = "/sw.js"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+
+[[headers]]
+  for = "/precache-manifest.json"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+
+[[headers]]
+  for = "/index.html"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+
+[[headers]]
+  for = "/manifest.webmanifest"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"

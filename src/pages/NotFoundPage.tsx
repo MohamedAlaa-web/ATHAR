@@ -8,7 +8,7 @@ export function NotFoundPage() {
   return (
     <div style={{ paddingTop: 48, textAlign: 'center' }}>
       <p className="kicker">404</p>
-      <h1 style={{ fontFamily: 'var(--font-display)', fontSize: 40 }}>{tr('qr.invalid')}</h1>
+      <h1 style={{ fontFamily: 'var(--font-sans)', fontSize: 40 }}>{tr('qr.invalid')}</h1>
       <p className="prose" style={{ maxWidth: '60ch', marginInline: 'auto' }}>{tr('scan.manual')}</p>
       <div className="back-row" style={{ justifyContent: 'center' }}>
         {ARTIFACTS.map((a) => (

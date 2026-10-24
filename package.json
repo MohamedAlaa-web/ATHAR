@@ -4,14 +4,25 @@
   "version": "1.0.0",
   "description": "ATHAR (أثر) — cinematic museum experience concept prototype",
   "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
+    "build:demo": "tsc -b && vite build --mode demo",
     "preview": "vite preview",
     "test": "vitest run",
     "test:watch": "vitest"
   },
   "dependencies": {
+    "@fontsource-variable/ibm-plex-sans": "^5.3.0",
+    "@fontsource-variable/inter": "^5.3.0",
+    "@fontsource-variable/noto-naskh-arabic": "^5.3.0",
+    "@fontsource-variable/noto-sans-arabic": "^5.3.0",
+    "@fontsource/ibm-plex-sans-arabic": "^5.3.0",
+    "jsqr": "^1.4.0",
+    "lucide-react": "^1.61.0",
     "qrcode": "^1.5.4",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
@@ -22,6 +33,9 @@
     "@types/react": "^19.3.0",
     "@types/react-dom": "^19.3.0",
     "@vitejs/plugin-react": "^4.3.3",
+    "autoprefixer": "^10.6.1",
+    "postcss": "^8.5.31",
+    "tailwindcss": "^3.4.17",
     "typescript": "^5.6.2",
     "vite": "^5.4.8",
     "vitest": "^2.1.3"

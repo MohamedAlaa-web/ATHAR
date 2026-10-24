@@ -1,0 +1,29 @@
+{
+  "note": {
+    "ar": "قائمة مكافآت مؤقتة — يقرر المتحف المكافآت الحقيقية وشروطها. ليست عرضًا تجاريًا.",
+    "en": "Placeholder reward list — the museum decides the real rewards and their conditions. Not a commercial offer."
+  },
+  "placeholder": true,
+  "rewards": [
+    {
+      "id": "print-postcard",
+      "cost": 60,
+      "label": { "ar": "بطاقة بريدية مطبوعة", "en": "Printed postcard" }
+    },
+    {
+      "id": "gallery-bookmark",
+      "cost": 90,
+      "label": { "ar": "علامة كتاب من المعرض", "en": "Gallery bookmark" }
+    },
+    {
+      "id": "curator-talk",
+      "cost": 150,
+      "label": { "ar": "مقعد في جلسة مع أمين المتحف", "en": "Seat at a curator talk" }
+    },
+    {
+      "id": "membership-trial",
+      "cost": 200,
+      "label": { "ar": "تجربة عضوية لمدة شهر", "en": "One-month membership trial" }
+    }
+  ]
+}

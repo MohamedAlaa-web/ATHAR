@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-label="ATHAR">
+  <rect width="512" height="512" fill="#080B10"/>
+  <rect x="36" y="36" width="440" height="440" rx="96" fill="#0B1017" stroke="#C6A15B" stroke-width="14" opacity="0.9"/>
+  <path d="M96 256 Q256 112 416 256 Q256 400 96 256 Z" fill="none" stroke="#C6A15B" stroke-width="26"/>
+  <circle cx="256" cy="256" r="62" fill="#C6A15B"/>
+  <circle cx="256" cy="256" r="26" fill="#080B10"/>
+  <path d="M256 326 V402" stroke="#C6A15B" stroke-width="22" stroke-linecap="round"/>
+  <path d="M196 372 Q256 424 316 372" fill="none" stroke="#C6A15B" stroke-width="18" stroke-linecap="round"/>
+</svg>

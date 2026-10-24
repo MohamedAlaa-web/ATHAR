@@ -1,0 +1,40 @@
+{
+  "name": "أثر · ATHAR — تنقّل داخل المتحف",
+  "short_name": "ATHAR",
+  "description": "Indoor navigation for the Grand Egyptian Museum demo. Position stays on the device. / تنقّل داخل المتحف: يُحسب الموقع على الجهاز فقط.",
+  "lang": "ar",
+  "dir": "rtl",
+  "start_url": "./#/",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#E9E8E3",
+  "theme_color": "#E9E8E3",
+  "categories": ["travel", "navigation"],
+  "icons": [
+    {
+      "src": "./icons/athar-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icons/athar-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icons/athar-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "./icons/athar.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

@@ -14,7 +14,7 @@ export function AdminPage() {
   return (
     <div style={{ paddingTop: 24 }}>
       <p className="kicker">DEV</p>
-      <h1 style={{ fontFamily: 'var(--font-display)', fontSize: 34, margin: '4px 0' }}>{tr('admin.title')}</h1>
+      <h1 style={{ fontFamily: 'var(--font-sans)', fontSize: 34, margin: '4px 0' }}>{tr('admin.title')}</h1>
       <p className="muted">{tr('admin.sub')}</p>
       {ARTIFACTS.map((a) => (
         <section key={a.id} style={{ marginTop: 20 }}>

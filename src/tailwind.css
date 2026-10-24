@@ -1,0 +1,133 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    color-scheme: light;
+  }
+
+  html,
+  body,
+  #root {
+    min-height: 100%;
+  }
+
+  body {
+    @apply bg-stone font-sans text-ink antialiased;
+    overscroll-behavior-y: none;
+  }
+
+  h1,
+  h2,
+  h3 {
+    @apply font-semibold text-ink;
+    text-wrap: balance;
+  }
+
+  /* Numbers in this product are read at a glance: distances, accuracy, Hz. */
+  .num,
+  time,
+  output {
+    font-variant-numeric: tabular-nums;
+  }
+
+  :focus-visible {
+    outline: 2px solid theme('colors.lapis');
+    outline-offset: 2px;
+    border-radius: 6px;
+  }
+
+  ::selection {
+    background: rgba(42, 75, 160, 0.16);
+  }
+}
+
+@layer components {
+  /* A sheet of paper on the stone floor. */
+  .ui-card {
+    @apply rounded-lg border border-rule bg-surface;
+  }
+
+  .rule {
+    @apply border-0 border-t border-rule;
+  }
+
+  .ui-chip {
+    @apply inline-flex items-center gap-1.5 rounded-full border border-rule bg-surface px-2.5 py-1 text-xs font-medium text-ink-soft;
+  }
+
+  .ui-btn {
+    @apply inline-flex min-h-11 items-center justify-center gap-2 rounded-sm px-4 text-sm font-medium transition-colors disabled:opacity-40;
+  }
+
+  .ui-btn-primary {
+    @apply ui-btn bg-lapis text-white hover:bg-[#23408c] active:bg-[#1d376f];
+  }
+
+  .ui-btn-secondary {
+    @apply ui-btn border border-rule bg-surface text-ink hover:bg-stone-100;
+  }
+
+  .ui-btn-quiet {
+    @apply ui-btn text-ink-soft hover:bg-stone-100 hover:text-ink;
+  }
+
+  .ui-field {
+    @apply min-h-11 w-full rounded-sm border border-rule bg-surface px-3 text-sm text-ink outline-none placeholder:text-ink-muted focus:border-lapis;
+  }
+
+  .label {
+    @apply text-xs font-medium text-ink-muted;
+  }
+
+  .section-title {
+    @apply text-sm font-semibold text-ink;
+  }
+
+  /* Long-form artifact text: Naskh, generous leading, short measure. */
+  .reading {
+    @apply font-read text-base leading-[1.8] text-ink;
+    max-width: 66ch;
+  }
+
+  /* The one loud element: the instruction banner, built like a museum sign. */
+  .sign {
+    @apply rounded-lg bg-ink text-white;
+    box-shadow: theme('boxShadow.sign');
+  }
+
+  .sign-meta {
+    @apply text-xs font-medium text-white/70;
+  }
+
+  /* Bottom sheet over the map: peek / half / full. */
+  .sheet {
+    @apply rounded-t-[16px] bg-surface;
+    box-shadow: theme('boxShadow.sign');
+    transition: height 220ms ease;
+  }
+
+  .sheet-handle {
+    @apply mx-auto mt-2 h-1 w-10 rounded-full bg-rule;
+  }
+
+  .safe-top {
+    padding-top: max(env(safe-area-inset-top), 0.5rem);
+  }
+
+  .safe-bottom {
+    padding-bottom: max(env(safe-area-inset-bottom), 0.5rem);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .sheet,
+  .sheet * {
+    transition: none !important;
+  }
+
+  * {
+    scroll-behavior: auto !important;
+  }
+}

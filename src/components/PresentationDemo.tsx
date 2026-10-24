@@ -52,7 +52,7 @@ export function PresentationDemo() {
         <div className="demo-overlay" role="dialog" aria-modal="true" aria-label={tr('demo.title')}>
           <div className="demo-sheet">
             <p className="kicker">{tr('demo.title')}</p>
-            <h3 style={{ fontFamily: 'var(--font-display)', fontSize: 26, margin: '6px 0' }}>{steps[step].title}</h3>
+            <h3 style={{ fontFamily: 'var(--font-sans)', fontSize: 26, margin: '6px 0' }}>{steps[step].title}</h3>
             <p className="prose">{steps[step].body}</p>
             <div className="demo-steps" aria-hidden="true">
               {steps.map((_, i) => <span key={i} className={i <= step ? 'done' : ''} />)}
