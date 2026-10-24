@@ -212,4 +212,42 @@ Raw evidence: `docs/audit/final-audit.json`, `docs/audit/final-deep.json`, scree
 - **P2 left open:** hall labels still crowd the walls on the floor plan at 390 px; the
   artifact page keeps the English title as a secondary line (deliberate bilingual pattern);
   Admin shows internal hall ids in the coordinate note.
-- Nothing merged, nothing pushed, no estimator or scenario parameter changed.
+- Nothing merged into `main`, no estimator or scenario parameter changed. The shipped
+  tree was pushed only to the review branch described in F6.
+
+### F6. Source review handoff
+
+| Item | Value |
+| --- | --- |
+| Repo (public) | <https://github.com/MohamedAlaa-web/ATHAR> |
+| Branch to review | `review/deployed-2026-10-24` (commit `5ea99ee`) |
+| Tag of the shipped build | `review-2026-10-24` |
+| Default branch | still `main` (original prototype) — **do not review `main`** |
+| Deployed demo | <https://site-d80a508dd53040aca99977a7dc55c6f0.freebuff.page> |
+
+Why a branch instead of `main`: the shipped tree and the prototype are different apps;
+moving `main` would have thrown away the prototype the museum may still want to show.
+
+What the branch contains: 288 files — the navigation/positioning/planner/crowd/rewards
+source, both build modes, `public/sw.js` + `precache-manifest.json`, deploy configs
+(`vercel.json`, `netlify.toml`, `sites.manifest.json`), and the evidence set under `docs/`
+(153 files: audit screenshots, redesign before/after, scenario results).
+
+What it deliberately does **not** contain: `node_modules/`, `dist/`, browser profiles,
+`.env*` (an `*.tsbuildinfo` pair was untracked as well).
+
+One caveat for a reviewer: `public/assets/` (40 MB of legacy narration, films and photos)
+is still tracked from the first commit, because it is in the repo's existing history.
+`npm run build:demo` keeps it out of `dist/` (1.1 MB); `npm run build` still ships it, and
+the legacy routes that use it are only in the full build.
+
+Clean-clone check (run in a throwaway clone of the pushed branch, not the working copy):
+
+| Command | Result |
+| --- | --- |
+| `git clone --branch review/deployed-2026-10-24 --depth 1` | ok, 90 MB working tree incl. `.git` |
+| `npm ci` | ok, exit 0 |
+| `npm run build:demo` | ok, **1.1 MB** `dist/` — same size as the deployed build |
+
+So the branch is self-contained: fonts resolve from `@fontsource*` packages in
+`package.json`, nothing needed by the build is gitignored.
